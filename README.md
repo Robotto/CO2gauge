@@ -1,5 +1,6 @@
 # CO2gauge
 A gauge that shows how much of the gridmix is carbon neutral
+
 ![](https://sardukar.moore.dk/CO2gauge.jpg | width=100)
 
 # API KEY
