@@ -1,7 +1,7 @@
 # CO2gauge
 A gauge that shows how much of the gridmix is carbon neutral
 
-![Image of the thing](https://raw.githubusercontent.com/robotto/CO2gauge/master/CO2gauge.jpg | width=100)
+![Image of the thing](https://raw.githubusercontent.com/robotto/CO2gauge/master/CO2gauge.jpg?s=200)
 
 # API KEY
 Get your own from [co2signal.com](https://www.co2signal.com/) for free!
