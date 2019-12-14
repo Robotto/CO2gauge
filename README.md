@@ -1,7 +1,7 @@
 # CO2gauge
 A gauge that shows how much of the gridmix is carbon neutral based on data from [co2signal.com](https://co2signal.com).
 
-![Image of the thing](https://raw.githubusercontent.com/robotto/CO2gauge/master/CO2gauge.jpg?s=200)
+![Image of the thing](https://raw.githubusercontent.com/robotto/CO2gauge/master/getup.jpg?s=200)
 
 I'm aware that wind power is not the only carbon neutral power source, but it looks neat with a windmill there, and it kind of rings true at least in Denmark where I'm from. 
 
@@ -11,5 +11,14 @@ Get your own from [co2signal.com](https://www.co2signal.com/) for free! Check  [
 # Hardware
 ESP8266 running Arduino on a Wemos D1 mini board.
 
+![Image of the thing](https://raw.githubusercontent.com/robotto/CO2gauge/master/CO2gauge.jpg?s=100)
+
 Gauges are from [ebay](https://www.ebay.com/itm/Black-Voltmeter-SO-45-AC-0-300V-Round-Analog-Dial-Panel-Meter-Voltmeter-Gauge/312322530464). I have replaced the 100K resistor inside with a 1K resistor to change the max voltage to ~3V, thus enabling direct PWM control of the gauge.
-The needle was kind of pale when I got the thing, so I thought I'd paint it red while I had it open. 
+The needle was kind of pale when I got the thing, so I thought I'd paint it red while I had it open.
+
+# Box
+The box design is based on the amazing parametric flexbox postscript from thingiverse. It is lasercut from 3mm MDF and holds itself together quite neatly.
+
+![flap](https://raw.githubusercontent.com/robotto/CO2gauge/master/flap.jpg?s=100)
+![flip](https://raw.githubusercontent.com/robotto/CO2gauge/master/flip.jpg?s=100)
+![closeup](https://raw.githubusercontent.com/robotto/CO2gauge/master/closeup.jpg?s=100)
