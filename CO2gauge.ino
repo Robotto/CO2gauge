@@ -23,6 +23,7 @@ const String url = "/v1/latest?countryCode=DK-DK1";
 const String authToken = "XxXxXxXxXxXxXxXx"
 
 //json stuff:
+//HAVE A LOOK AT https://arduinojson.org FOR HELP TO CALCULATE YOUR OWN CAPACITY!!!
 const size_t capacity = JSON_OBJECT_SIZE(1) + JSON_OBJECT_SIZE(2) + JSON_OBJECT_SIZE(5) + 310;
 DynamicJsonDocument doc(capacity);
 
