@@ -3,7 +3,15 @@
  *  This sketch sends data via HTTP GET requests to $host.
  */
 
+#if defined(ESP8266)
+#pragma message "ESP8266 stuff happening!"
 #include <ESP8266WiFi.h>
+#elif defined(ESP32)
+#pragma message "ESP32 stuff happening!"
+#include <WiFi.h>
+#else
+#error "This ain't a ESP8266 or ESP32.. NO WIFI FOR YOU!"
+#endif
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
 
